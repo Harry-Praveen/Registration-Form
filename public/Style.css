@@ -1,0 +1,70 @@
+
+.main{
+    height: auto;
+    width:50%;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 18px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 8px 5px 8px 5px royalblue;
+
+}
+
+.main h2{
+    font-size:36px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main h1{
+    font-size:36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: green;
+}
+label{
+    width: 30%;
+    font-size: 24px;
+    height: 160px;
+    width: 22px;
+    padding: 6px;
+    margin-right: 18px;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid blue;
+    border-radius: 3px;
+}
+input:focus{
+    outline: 0.1px;
+    border-color: blue;
+}
+
+input{
+    width: 65%;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 0px;
+    background-color: transparent;
+    color: black;
+    border-bottom: 3px dotted black;
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    background-color: rgb(157, 198, 184);
+    border: 3px solid rgb(200, 35, 241);
+    color: black;
+    font-size: 26px;
+    padding: 16px;
+    margin-left: 36%;
+    border-radius: 8px;
+}
